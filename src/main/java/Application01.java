@@ -8,7 +8,7 @@ public class Application01 {
 
         Scanner s = new Scanner(System.in);
 
-        System.out.print("Where are you from? ");
+        System.out.println("Where are you from? ");
 
         String city = s.nextLine();
 
