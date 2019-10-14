@@ -1,0 +1,6 @@
+0. be on-time. lessons start at 16:00
+1. active Slack account (general information / questions in appropriate groups)
+2. public GitLab account (homework tasks / classes code)
+3. private GitHub account (homework code / private code / etc)
+4. TimeToKnow.com resource
+5. Online mentor (Slack account)
