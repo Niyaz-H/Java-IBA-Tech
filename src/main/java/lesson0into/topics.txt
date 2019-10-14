@@ -1,0 +1,4 @@
+1. intro
+2. install applications (software-to-install.txt)
+3. JDK install
+4. First application "Hello World"
