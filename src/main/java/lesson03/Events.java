@@ -10,6 +10,11 @@ public class Events {
     data[1] = new Event(1991, "Independence");
   }
 
+  /**
+   * creates initial instance of Events object
+   * .......
+   * .......
+   */
   public static Events create() {
     return new Events(2);
   }
@@ -26,6 +31,11 @@ public class Events {
     for (Event e: data) {
       if (e.checkYear(year)) return e.toString();
     }
+    // TODO: Fix it
     return "";
+  }
+
+  public int findClosestTo(int year) {
+    throw new RuntimeException("Not implemented yet");
   }
 }

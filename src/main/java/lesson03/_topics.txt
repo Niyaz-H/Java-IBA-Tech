@@ -4,7 +4,7 @@ hard skills:
 - default values for class fields
 - null
 - Integer.MIN_VALUE / MAX_VALUE
-- code vs metacode
+- code vs metacode/pseudocode
 
 - classes
 

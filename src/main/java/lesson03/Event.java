@@ -13,6 +13,7 @@ public class Event {
     return year == this.year;
   }
 
+  // TODO: possible will be changed by D.M.
   @Override
   public String toString() {
     return String.format("%d: %s", year, name);
