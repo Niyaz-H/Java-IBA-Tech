@@ -2,6 +2,7 @@ package lesson02;
 
 import java.util.Arrays;
 import java.util.Random;
+import java.util.stream.Collectors;
 
 public class ArrayFilter {
     /**
@@ -63,4 +64,5 @@ public class ArrayFilter {
         }
         return a;
     }
+
 }

@@ -3,13 +3,16 @@ package lesson02;
 public class TypeWrappers {
     public static void main(String[] args) {
         byte b1 = 42;
-        Byte b2 = 42;
+        Byte b2 = new Byte((byte)42);
 
         short s1 = 30000;
         Short s2 = 30000;
 
         int i1 = 1;
         Integer i2 = 1;
+        Integer i3 = new Integer(1);
+        Integer i5 = i1; // boxing
+        int i6 = i2; // unboxing
 
         long l1 = 2;
         Long l2 = 2L;
@@ -25,5 +28,7 @@ public class TypeWrappers {
 
         boolean valid = true;
         Boolean isEligibleForDiscount = false;
+
+        final int k = 7;
     }
 }
