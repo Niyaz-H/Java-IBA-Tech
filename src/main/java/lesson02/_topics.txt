@@ -12,7 +12,6 @@ hard skills:
 - ternary operator
 - how to swap values of two variables between each other
 
-- default values [for class fields]
 - variable vs const / final / mutable - immutable
 - code structure: methods / functions / classes
 
@@ -22,16 +21,6 @@ hard skills:
 - String
 - passing by value / by reference
 - primitive types (int, boolean, char, ...) vs reference types (object and array)
-- null
 
 - Classes wrappers Integer / Long ...
-- MIN_VALUE / MAX_VALUE
 - classes / objects
-- code vs metacode
-
-soft skills:
-------------
-- complexity breakdown
-- cutting corners
-- TODO vs comments
-- comments vs meaningful names for variables / classes / files / folders / etc.

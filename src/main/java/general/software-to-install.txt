@@ -1,4 +1,4 @@
-1. IDE: https://www.jetbrains.com
+1. IDE: IntelliJ Idea Ultimate https://www.jetbrains.com
 2. Slack: https://slack.com
 3. Git: https://git-scm.com/downloads
 

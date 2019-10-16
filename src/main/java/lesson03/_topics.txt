@@ -1,0 +1,30 @@
+hard skills:
+------------
+- default values in code
+- default values for class fields
+- null
+- Integer.MIN_VALUE / MAX_VALUE
+- code vs metacode
+
+- classes
+
+- Java Memory model
+- Objects, Comparing objects
+- equals, hashcode
+- Enum
+- static
+- classloader
+
+- visibility modifiers: private, protected, public, default
+- interfaces
+
+- Testing Java code
+- junit
+- hamchest
+
+soft skills:
+------------
+- complexity breakdown
+- cutting corners
+- TODO vs comments
+- comments vs meaningful names for variables / classes / files / folders / etc.
