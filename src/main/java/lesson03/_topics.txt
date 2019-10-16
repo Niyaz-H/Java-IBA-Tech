@@ -15,7 +15,8 @@ hard skills:
 - static
 - classloader
 
-- visibility modifiers: private, protected, public, default
+- visibility modifiers: private, protected, public,
+    default (package protected)
 - interfaces
 
 - Testing Java code

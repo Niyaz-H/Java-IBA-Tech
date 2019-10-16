@@ -1,9 +1,13 @@
 package lesson03;
 
 public class Person {
-  String name;
+  // package private
+  protected String name;
+  // private
   private static int counter = 0;
-  private boolean isMember;
+  protected boolean isMember;
+  // public
+  public int age;
 
   public Person() {
     this.isMember = false;

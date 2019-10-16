@@ -21,7 +21,8 @@ public class PersonApp {
     Person.setCounter(99);
     System.out.println(Person.getCounter());
 
-
+    SmartPerson p4 = new SmartPerson();
+    p4.name = "";
 
   }
 }

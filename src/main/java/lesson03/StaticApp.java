@@ -20,7 +20,7 @@ public class StaticApp {
     System.out.println(st2.smth);
     System.out.println(StaticX.smth);
 
-
+    SmartPerson smartPerson = new SmartPerson();
 
 
   }
