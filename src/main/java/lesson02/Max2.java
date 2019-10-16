@@ -9,7 +9,7 @@ public class Max2 {
         this.val2 = val2;
     }
 
-    int max() {
+    public int max() {
         return Math.max(val1, val2);
     }
 
