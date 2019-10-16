@@ -11,5 +11,13 @@ public class TypeWrappers2 {
     int max1 = max_ref.max();
     int max2 = Math.max(5, 7);
 
+    int m1 = Integer.MIN_VALUE;
+    int m2 = Integer.MAX_VALUE;
+
+    int f = 1;
+    Integer i4; // null
+    String s = null;
+
+
   }
 }
