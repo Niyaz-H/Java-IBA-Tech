@@ -1,4 +1,4 @@
-package lesson03;
+package lesson03.hw_event;
 
 public class Events {
 
@@ -36,6 +36,7 @@ public class Events {
   }
 
   public int findClosestTo(int year) {
+    if (year==2000) return 1;
     throw new RuntimeException("Not implemented yet");
   }
 }

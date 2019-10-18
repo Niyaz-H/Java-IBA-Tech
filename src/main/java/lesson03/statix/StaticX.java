@@ -1,4 +1,4 @@
-package lesson03;
+package lesson03.statix;
 
 public class StaticX {
   int age;

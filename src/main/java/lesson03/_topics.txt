@@ -21,6 +21,7 @@ hard skills:
 
 - Testing Java code
 - junit
+- assertj
 - hamchest
 
 soft skills:

@@ -1,4 +1,4 @@
-package lesson03;
+package lesson03.hw_event;
 
 public class Event {
   private final int year;

@@ -1,4 +1,6 @@
-package lesson03;
+package lesson03.equals;
+
+import lesson03.Person;
 
 public class PizzaApp {
   public static void main(String[] args) {
@@ -7,7 +9,7 @@ public class PizzaApp {
 //    Pizza p3 = p2;
     Person alex = new Person("Alex");
 
-//    if (p1.equals(alex)) {}
+    if (p1.equals(alex)) {}
 
     if (p1.equals(p2)) {
       System.out.println("identical");

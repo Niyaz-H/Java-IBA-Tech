@@ -1,4 +1,6 @@
-package lesson03;
+package lesson03.statix;
+
+import lesson03.SmartPerson;
 
 public class StaticApp {
   public static void main(String[] args) {
