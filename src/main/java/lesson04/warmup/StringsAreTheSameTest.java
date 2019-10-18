@@ -11,12 +11,16 @@ import static org.junit.Assert.*;
 public class StringsAreTheSameTest {
 
   private Supplier<String> randomString = () ->
-      Stream.generate(() -> (char) (Math.random()*('Z'-'A'+1)+'A')).limit((int)(Math.random()*10+10)).map(Object::toString).reduce(String::concat).get();
+      Stream.generate(() -> (char) (Math.random()*('Z'-'A'+1)+'A'))
+          .limit((int)(Math.random()*10+10))
+          .map(Object::toString)
+          .reduce(String::concat)
+          .get();
 
   private StringsAreTheSame core;
 
   @Before
-  public void before() {
+  public void beforemhgjhgjhfgv() {
     this.core = new StringsAreTheSame();
   }
 
@@ -24,6 +28,7 @@ public class StringsAreTheSameTest {
   public void check_the_same_1() {
     String one = "hello";
     String two = "hello";
+//    StringsAreTheSame core = new StringsAreTheSame();
     boolean actual = core.check(one, two);
     boolean expected = true;
     assertEquals(expected, actual);

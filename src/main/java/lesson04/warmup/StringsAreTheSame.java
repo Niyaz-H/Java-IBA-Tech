@@ -1,6 +1,8 @@
 package lesson04.warmup;
 
 public class StringsAreTheSame {
+  String a;
+  String b;
 
   /**
    * you have to implement your ONW implementation
@@ -14,7 +16,19 @@ public class StringsAreTheSame {
    */
 
   public boolean check(String one, String two) {
-    throw new IllegalArgumentException("must be implemented to pass the tests");
-  }
+    if (one == null) {
+      return false;
+    }
+    if (two == null) return false;
 
+    if (one.length() != two.length()) return false;
+
+    for (int i = 0; i < one.length(); i++) {
+      if (one.charAt(i) != two.charAt(i)) {
+        return false;
+      }
+    }
+    return true;
+//    throw new IllegalArgumentException("must be implemented to pass the tests");
+  }
 }
