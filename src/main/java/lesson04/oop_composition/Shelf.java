@@ -23,4 +23,11 @@ public class Shelf {
     }
     books[index++] = book;
   }
+
+  public boolean contains(String name) {
+    for (int i = 0; i < index; i++) {
+      if (books[i].name.equals(name)) return true;
+    }
+    return false;
+  }
 }
