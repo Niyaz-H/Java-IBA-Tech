@@ -74,6 +74,7 @@ public class ArrayListApp {
         .filter(item -> item < 0)
         .map(item -> item * 2)
         .filter(item -> item < 0)
+        .distinct()
         .collect(Collectors.toList());
 
     List<Integer> positives2 = negatives.stream()
