@@ -30,5 +30,6 @@ public class TypeWrappers {
         Boolean isEligibleForDiscount = false;
 
         final int k = 7;
+
     }
 }
