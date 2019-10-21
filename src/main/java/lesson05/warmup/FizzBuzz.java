@@ -2,7 +2,7 @@ package lesson05.warmup;
 
 import java.util.Random;
 
-public class randomArray {
+public class FizzBuzz {
     public static void main(String[] args) {
         int[] a = new int[20];
         int len = a.length;
