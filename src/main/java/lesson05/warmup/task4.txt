@@ -1,0 +1,14 @@
+The task:
+
+you are given the string like
+"Hello, my dear friend, please keep learning, I'll guarantee you'll reach the moment you understand everything"
+
+the task is:
+  - to remove any letters except 'A'..'Z' and 'a'..'z'
+  - to convert residual letters to lower-case
+  - to calculate how many times each letter occurs in the string
+  - to calculate on which position particular letter occurs
+  - pint out the final result in following way:
+
+[<'a' : 3 : [1,2,5]>, <'f' : 4 : [7,8,11,12]> ...]
+

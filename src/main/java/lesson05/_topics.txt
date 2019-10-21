@@ -1,0 +1,16 @@
+hard skills:
+------------
+- StringBuilder
+- StringJoiner, String.join
+- Collections
+    - List: ArrayList/ LinkedList
+    - Map: HashMap / TreeMap
+    - Map: HashSet / TreeSet
+    - Stack
+    - Queue
+    - PriorityQueue
+    - Comparator / Comparable
+    - anonymous classes / lambda
+- Streams Basic
+- Optional
+

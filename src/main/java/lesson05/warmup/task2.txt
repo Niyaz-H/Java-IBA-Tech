@@ -1,0 +1,15 @@
+WarmUp #2:
+----------
+The task is:
+
+1. to write a set of classes which will represent the
+   geometrical figures: Square, Rectangle, Circle, Triangle
+
+2. to make them inherit the main class Figure
+
+3. to create a behavior (method of each class) which will represent the area of the figure
+
+4. to create an ArrayList<Figure> and put into it 10 different figures
+
+5. to calculate the total area of all the figures presented in ArrayList
+

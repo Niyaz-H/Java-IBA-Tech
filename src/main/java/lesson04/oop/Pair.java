@@ -19,6 +19,7 @@ public class Pair {
 
   @Override
   public String toString() {
+//    String s = "<"+ c + ", " + pos + ">";
     return String.format("<%s, %d>", c, pos);
   }
 }
