@@ -1,0 +1,13 @@
+The task is:
+
+- to create an ArrayList
+- to fill it with 100 numbers with in range [0, 100]
+- iterate over this ArrayList
+
+- create two new ArrayLists
+- one of them should  contain odd elements
+- another - only even elements
+
+- print all 3 ArrayLists
+* it isn't allowed to use print anywhere in your program
+except finish stage
