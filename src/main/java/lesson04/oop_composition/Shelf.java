@@ -19,7 +19,7 @@ public class Shelf {
 
   public void addBook(Book book) {
     if (index >= maxsize) {
-      throw new IllegalArgumentException("there is no space in tis shelf");
+      throw new IllegalArgumentException("there is no space in this shelf");
     }
     books[index++] = book;
   }
