@@ -9,5 +9,8 @@ The task is:
 - another - only even elements
 
 - print all 3 ArrayLists
+
 * it isn't allowed to use print anywhere in your program
-except finish stage
+except explicitly specified place
+
+12 / 21 done in 33 min ;(

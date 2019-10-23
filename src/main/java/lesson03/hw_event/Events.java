@@ -1,6 +1,8 @@
 package lesson03.hw_event;
 
-public class Events {
+import java.util.Iterator;
+
+public class Events implements Iterable<Event> {
 
   private final Event[] data;
 
@@ -38,5 +40,10 @@ public class Events {
   public int findClosestTo(int year) {
     if (year==2000) return 1;
     throw new RuntimeException("Not implemented yet");
+  }
+
+  @Override
+  public Iterator<Event> iterator() {
+    return null;
   }
 }
