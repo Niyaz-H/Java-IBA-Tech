@@ -1,49 +1,67 @@
 package lesson06;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
+import java.util.HashSet;
+import java.util.function.Consumer;
 
 public class ForEachApp {
 
-  public ArrayList<String> data1() {
-    ArrayList<String> a = new ArrayList<String>();
-    a.add("Java");
-    a.add("Scala");
-    a.add("C++");
-    a.add("Haskell");
-    return a;
-  }
-
-  public ArrayList<String> data2() {
-    return new ArrayList<String>() {{
-      add("Java");
-      add("Scala");
-      add("C++");
-      add("Haskell");
-    }};
-  }
-
-  public List<String> data3() {
-    return Arrays.asList("Java", "Scala", "C++", "Haskell");
-  }
-
   public static void main(String[] args) {
-    ForEachApp app = new ForEachApp();
-    ArrayList<String> data = app.data1();
+    ArrayList<String> languages = new ArrayList<>();
+    languages.add("Java");
+    languages.add("Scala");
+    languages.add("C++");
+    languages.add("Haskell");
 
-    data.forEach(s -> System.out.println(s));
+    Consumer<String> my_consumer = new Consumer<String>() {
+      @Override
+      public void accept(String s) {
+        System.out.println(s);
+      }
+    };
 
-    for (String s: data) {
+    // step 0
+    for (String s: languages) {
       System.out.println(s);
     }
 
-    Iterator<String> it = data.iterator();
-    while (it.hasNext()) {
-      System.out.println(it.next());
+    // step 1
+    for (String s: languages) {
+      my_consumer.accept(s);
     }
 
+    // step 2
+    languages.forEach(my_consumer);
+
+    // step 3. anonymous class
+    languages.forEach(new Consumer<String>() {
+      @Override
+      public void accept(String s) {
+        System.out.println(s);
+      }
+    });
+
+    // step 4
+    languages.forEach((String s) -> {
+      System.out.println(s);
+    });
+
+    // step 5
+    languages.forEach(s -> {
+      String s1 = s.toLowerCase();
+      System.out.println(s1);
+    });
+
+    // step 6
+    languages.forEach(s -> System.out.println(s));
+
+    // step 7. method reference
+    languages.forEach(System.out::println);
+
+    // example. different action inside the lambda
+    HashSet<String> a2 = new HashSet<>();
+    languages.forEach(s -> a2.add(s));
 
   }
+
 }

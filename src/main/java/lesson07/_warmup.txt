@@ -1,0 +1,4 @@
+- random iterator
+- minimal pair in random array
+- find the element without duplications
+

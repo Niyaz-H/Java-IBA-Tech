@@ -1,7 +1,6 @@
-package lesson06.warmip;
+package lesson06.warmup;
 
 import java.util.ArrayList;
-import java.util.function.Consumer;
 
 public class Task1 {
   public static void main(String[] args) {

@@ -2,7 +2,7 @@ hard skills:
 ------------
 - StringBuilder
 - StringJoiner, String.join
-- Collections
+- Collections in general
     - List: ArrayList / LinkedList
     - Map: HashMap / TreeMap
     - Set: HashSet / TreeSet
@@ -11,9 +11,3 @@ hard skills:
     - PriorityQueue
     - Comparator / Comparable
     - anonymous classes / lambda
-- Streams Basic
-
-
-
-- Optional
-

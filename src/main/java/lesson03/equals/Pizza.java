@@ -2,6 +2,7 @@ package lesson03.equals;
 
 public class Pizza {
   int size;
+  String name;
 
   public Pizza(int size) {
     this.size = size;
@@ -17,7 +18,11 @@ public class Pizza {
     } else {
       return false;
     }
+  }
 
-
+  @Override
+  public int hashCode() {
+//    return size*31 + name.hashCode();
+    return size;
   }
 }

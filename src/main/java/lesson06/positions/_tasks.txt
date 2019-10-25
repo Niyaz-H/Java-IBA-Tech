@@ -1,0 +1,35 @@
+The string is given "Hello, World!"
+
+the task is:
+1. get rig of extra NON-CHAR symbols in the given string
+2. convert it to lower-case
+
+3.1. present data in following format:
+h:1, e:1, l:2,...
+where:
+letters - represent letters from the string
+numbers - quantity of repetition of corresponding character
+
+3.2. present data in following format:
+h:<1>, e:<2>, l:<3,4>, ...
+letters - represent letters from the string
+numbers in brackets  - corresponding character position in given string
+
+3.3. present data in following format:
+h:1:<1>, e:1:<2>, l:1:<3,4>, ...
+letters - represent letters from the string
+number between letter and a list - quantity of repetition of corresponding character
+numbers in brackets - corresponding character position in given string
+
+
+
+
+
+
+
+
+
+MAIN REQUIREMENT: the print() call is allowed only as the very last
+statement of your code.
+Please think in terms of data structures.
+

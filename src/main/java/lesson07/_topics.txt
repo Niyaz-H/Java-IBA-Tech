@@ -1,0 +1,18 @@
+hard skills:
+------------
+- Collections
+- PriorityQueue
+- DeQueue
+- anonymous classes / lambda evolution
+
+- Streams detailed
+- Optional
+
+- sorting
+- Comparator / Comparable
+- several comparators
+- decorator pattern
+- date and time
+- method reference
+- exceptions
+- controller / service / DAO
