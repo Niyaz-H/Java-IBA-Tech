@@ -2,6 +2,7 @@ package lesson08.streams;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.function.Function;
 import java.util.function.Supplier;
@@ -24,10 +25,18 @@ public class StreamGenerateApp {
         .collect(Collectors.toCollection(LinkedList::new));
   }
 
-  public static void main(String[] args) {
+  public static void main3(String[] args) {
     String hello = "Hello World";
     IntStream.range(0, hello.length())
         .mapToObj(i -> hello.charAt(i))
-        .forEach(System.out::println);
+        .collect(Collectors.toList());
+  }
+
+  public static void main(String[] args) {
+    Map<Integer, List<Integer>> collected = Stream.generate(() -> (int) (Math.random() * 40))
+        .limit(20)
+        .collect(Collectors.groupingBy(i -> i < 10 ? 1 : 2));
+    System.out.println(collected);
+
   }
 }
