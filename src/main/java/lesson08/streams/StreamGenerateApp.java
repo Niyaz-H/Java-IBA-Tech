@@ -32,11 +32,20 @@ public class StreamGenerateApp {
         .collect(Collectors.toList());
   }
 
-  public static void main(String[] args) {
+  public static void main4(String[] args) {
     Map<Integer, List<Integer>> collected = Stream.generate(() -> (int) (Math.random() * 40))
         .limit(20)
         .collect(Collectors.groupingBy(i -> i < 10 ? 1 : 2));
     System.out.println(collected);
 
+  }
+  public static void main(String[] args) {
+    String collected = Stream.generate(() -> (int) (Math.random() * 40))
+        .limit(20)
+        .map(v -> v.toString())
+//        .skip(2)
+        .peek(el -> System.out.println(el))
+        .collect(Collectors.joining(" * ", "<<", ">>"));
+    System.out.println(collected);
   }
 }
