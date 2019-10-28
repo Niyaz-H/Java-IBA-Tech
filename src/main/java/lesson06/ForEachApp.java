@@ -10,6 +10,7 @@ public class ForEachApp {
     ArrayList<String> languages = new ArrayList<>();
     languages.add("Java");
     languages.add("Scala");
+    languages.add("Scala");
     languages.add("C++");
     languages.add("Haskell");
 
@@ -46,14 +47,20 @@ public class ForEachApp {
       System.out.println(s);
     });
 
-    // step 5
+    // step 5.1
     languages.forEach(s -> {
       String s1 = s.toLowerCase();
       System.out.println(s1);
     });
 
-    // step 6
+    // step 5.2
+    languages.forEach(s -> body(s));
+
+    // step 6.1. can be simplified to step 7
     languages.forEach(s -> System.out.println(s));
+
+    // step 6.2. can not be simplified to step 7
+    languages.forEach(s -> System.out.println(s.toLowerCase()));
 
     // step 7. method reference
     languages.forEach(System.out::println);
@@ -61,7 +68,13 @@ public class ForEachApp {
     // example. different action inside the lambda
     HashSet<String> a2 = new HashSet<>();
     languages.forEach(s -> a2.add(s));
+    System.out.println(a2);
 
+  }
+
+  private static void body(String s) {
+    String s1 = s.toLowerCase();
+    System.out.println(s1);
   }
 
 }

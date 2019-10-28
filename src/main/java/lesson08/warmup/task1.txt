@@ -1,0 +1,15 @@
+You are given the string
+which contains 'numbers' and 'non-numbers' separated with spaces
+
+Your task is to calculate the sum of all numbers in this string.
+Examples:
+
+input: ''         /      output: 0
+input: '1 2 3'    /      output: 6
+input: '1 2a 3'   /      output: 4
+input: 'asd xcv'  /      output: 0
+
+please consider writing it in THREE separate classes:
+1. task implementation
+2. application which will be responsible for running your code
+3. cover your solution by tests.
