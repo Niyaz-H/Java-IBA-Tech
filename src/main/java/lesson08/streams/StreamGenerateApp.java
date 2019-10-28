@@ -17,10 +17,17 @@ public class StreamGenerateApp {
         .forEach(s-> System.out.println(s));
   }
 
-  public static void main(String[] args) {
+  public static void main2(String[] args) {
     LinkedList<String> collect = "Hello World".chars()
         .boxed()
         .map(i -> String.format("*** %d ***", i))
         .collect(Collectors.toCollection(LinkedList::new));
+  }
+
+  public static void main(String[] args) {
+    String hello = "Hello World";
+    IntStream.range(0, hello.length())
+        .mapToObj(i -> hello.charAt(i))
+        .forEach(System.out::println);
   }
 }
