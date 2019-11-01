@@ -3,6 +3,7 @@ package lesson05.geometric;
 import java.util.ArrayList;
 
 public class GeometricApp {
+
   public static void main(String[] args) {
     ArrayList<Figure> figures = new ArrayList<Figure>();
     for (int i = 0; i < 10; i++) {

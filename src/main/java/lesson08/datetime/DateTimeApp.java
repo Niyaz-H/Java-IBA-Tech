@@ -25,7 +25,9 @@ public class DateTimeApp {
     System.out.println(now2);
     LocalTime now3 = LocalTime.now(ZoneId.of("CET")); // explicitly ask for Europe
     System.out.println(now3);
-    LocalTime now4 = LocalTime.of(15, 10, 33);
+    LocalTime now4 = LocalTime.of(15, 10);
+    LocalTime now5 = LocalTime.of(15, 10, 33);
+    LocalTime now6 = LocalTime.of(15, 10, 33, 677);
 
     int h = now1.getHour();
     int m = now1.getMinute();
@@ -33,10 +35,12 @@ public class DateTimeApp {
     int ns = now1.getNano();
 
     // how to truncate
-    now4.truncatedTo(ChronoUnit.MINUTES);
+    LocalTime now4new = now4.truncatedTo(ChronoUnit.SECONDS);
 
     String formatted = now1.format(DateTimeFormatter.ISO_LOCAL_TIME);
     System.out.println(formatted);
+
+    now1.compareTo(now2);
   }
 
   private void date_creating() {
@@ -111,6 +115,7 @@ public class DateTimeApp {
 //    app.period1_creating();
 //    app.period2_creating();
     app.date_comparing();
+    Instant.now();
 
   }
 

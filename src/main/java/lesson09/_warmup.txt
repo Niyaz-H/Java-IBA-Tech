@@ -1,0 +1,8 @@
+- create the List<String>
+- length of list = 30;
+- length of each string in the range [10..30]
+- each character in the range ['a-z..A-Z']
+- store/save/write this List in the text file
+- load/read these strings from file
+- sort them in the order of line length
+- write them into different file
