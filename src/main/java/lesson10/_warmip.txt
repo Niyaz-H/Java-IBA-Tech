@@ -1,0 +1,13 @@
+Warmup task:
+
+You are given an array with random numbers (generate it), length = 20
+
+Sort this array in ascending order
+
+print the original array
+print the sorted array
+
+* - you aren't allowed to import even one java module
+    to implement sorting. only 'for', 'if', 'while', ..., etc constructs
+* - feel free to use any approach to generate an array
+    and print it.

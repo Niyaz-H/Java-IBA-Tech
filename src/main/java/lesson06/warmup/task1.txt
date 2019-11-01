@@ -12,5 +12,3 @@ The task is:
 
 * it isn't allowed to use print anywhere in your program
 except explicitly specified place
-
-12 / 21 done in 33 min ;(
