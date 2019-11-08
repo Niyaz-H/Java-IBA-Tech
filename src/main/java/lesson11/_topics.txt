@@ -1,0 +1,13 @@
+hard skills:
+------------
+- linked list: idea
+- linked list: own implementation of Linked List
+- linked list: elements adding
+- linked list: iterating over the elements
+- linked list: printing via iteration
+- linked list: contains
+
+- recursion basics
+- variables between iterations
+- factorial
+- fibonacci

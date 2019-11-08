@@ -1,0 +1,15 @@
+hard skills:
+------------
+- linked list: length curr=curr.next
+- linked list: length recursion
+- linked list: length tail recursion
+- linked list: elements removing (3 implementation), all cases (empty, first, last, in the middle)
+- linked list: reversion
+- linked list: joining two ordered linked lists
+
+- hash map: own implementation
+- hash map: collision resolution (List<LinkedList>)
+
+- linked list / queue / stack
+- hashmap / treemap
+- hashset / treeset

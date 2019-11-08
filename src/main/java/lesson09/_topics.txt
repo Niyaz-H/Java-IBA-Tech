@@ -1,0 +1,9 @@
+- patterns:
+  - factory
+  - builder
+  - DAO
+  - decorator
+  - facade
+
+- step project
+  - structure

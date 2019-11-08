@@ -2,16 +2,18 @@ hard skills:
 ------------
 - Optional
 - date and time
+- encodings: ASCII, UTF16, UTF8
 - controller / service / DAO
 - decorator pattern
 - i/o in general
 - i/o classification:
     - local / remote
     - in memory / persistent
-    - ile / stream
+    - file / stream
     - sync / async
+- Input/OutputStream vs Reader/Writer
 - in memory (List, Map ...)
 - File (read / write)
 - Connection, read / write
 - java IO/NIO
-
+- try with resources

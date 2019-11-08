@@ -15,10 +15,21 @@ public class XLinkedListApp {
     System.out.println(found44); // false
 
     System.out.println(xl.toString()); // 11,22,33,44
-    xl.remove(22);
-    System.out.println(xl.toString()); // 11,33,44
-    xl.remove(33);
-    System.out.println(xl.toString()); // 11,44
+    xl.revert();
+    System.out.println(xl.toString());
+    System.out.println(xl.length());
+//    xl.remove(22);
+//    System.out.println(xl.toString()); // 11,33,44
+//    System.out.println(xl.length());
+//    xl.remove(33);
+//    System.out.println(xl.toString()); // 11,44
+//    System.out.println(xl.length());
+//    xl.remove(11);
+//    System.out.println(xl.toString()); // 44
+//    System.out.println(xl.length());
+//    xl.remove(44);
+//    System.out.println(xl.toString()); //
+//    System.out.println(xl.length());
 
   }
 }

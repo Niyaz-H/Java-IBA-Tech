@@ -9,3 +9,4 @@ hard skills:
 - several comparators
 - method reference
 - exceptions
+- exceptions checked / unchecked
