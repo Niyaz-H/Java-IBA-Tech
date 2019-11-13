@@ -1,11 +1,11 @@
 package lesson13.warmuo;
 
 public class IsPalindrome {
-  boolean check(int number) {
-    int[] digits = new int[10];
+  public boolean check(long number) {
+    byte[] digits = new byte[20];
     int count = 0;
     while (number > 0) {
-      digits[count++] = number % 10;
+      digits[count++] = (byte)(number % 10);
       number /= 10;
     }
     for (int i = 0; i < count / 2; i++) {

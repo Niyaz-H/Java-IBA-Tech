@@ -1,6 +1,7 @@
 1. generate 'N' first prime numbers
    signature: List<Integer> gen_prime(int N)
    N > 10000
+   10000..99999
 
 2. find the maximum palindrome,
    which is the product of prime 5-digit numbers
