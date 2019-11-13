@@ -2,17 +2,11 @@
    signature: String filter(String origin)
 
 2. change the case to vice versa in a given string of characters
-   (a->A, b->B...). IF, CASE is FORBIDDEN!
-   signature: String convert(String origin)
+   (a->A, b->B...). IF-ELSE, SWITCH-CASE, TERNARY (*?*:*) is FORBIDDEN!
+   signature: String convert(String origin) abCD -> ABcd
 
 3. function to check whether the given number is a prime number
    signature: boolean check(int origin)
 
 4. function to check whether the given int number is a palindrome
    signature: boolean check(int origin)
-
-5. generate 10 first prime numbers
-   signature: List<Integer> gen_prime(int count)
-
-6. find the maximum palindrome,
-   which is the product of prime 5-digit numbers

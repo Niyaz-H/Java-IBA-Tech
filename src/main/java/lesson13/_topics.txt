@@ -1,0 +1,23 @@
+- warm up
+- snake registration
+
+- binary search
+- how to search in sorted data
+- priority queue OWN implementation
+- complexity
+
+- binary tree
+- internal representation
+- own implementation of add/contains/remove (my code)
+- balanced / unbalanced tree
+- red and black tree
+- AVL tree
+
+- graphs
+- internal representation
+- unidirectional / bidirectional
+- loops
+- BFS (my code)
+- DFS (my code)
+- Dijkstra (my code)
+
