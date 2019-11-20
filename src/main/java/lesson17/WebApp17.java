@@ -8,7 +8,7 @@ public class WebApp17 {
     Server server = new Server(8082);
     ServletContextHandler handler = new ServletContextHandler();
 
-    handler.addServlet(ServletFile.class, "/file/*");
+    handler.addServlet(ServletFile.class, "/static/*");
 
     server.setHandler(handler);
     server.start();

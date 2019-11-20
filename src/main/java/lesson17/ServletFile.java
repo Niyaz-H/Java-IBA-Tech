@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 public class ServletFile extends HttpServlet {
   @Override
   protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-    Path path = Paths.get("./html/index.html");
+    Path path = Paths.get("./content",req.getPathInfo());
     ServletOutputStream os = resp.getOutputStream();
     Files.copy(path, os);
   }
