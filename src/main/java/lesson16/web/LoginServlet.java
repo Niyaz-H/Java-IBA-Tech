@@ -17,9 +17,9 @@ public class LoginServlet extends HttpServlet {
     Map<String, String[]> parameterMap = req.getParameterMap();
     String[] xes = parameterMap.get("x");
     StringJoiner sj = new StringJoiner(":", "<", ">");
-    for (String s: xes) {
-      sj.add(s);
-    }
+//    for (String s: xes) {
+//      sj.add(s);
+//    }
     String x = req.getParameter("x");
     String pathInfo = req.getPathInfo();
     String contextPath = req.getContextPath();

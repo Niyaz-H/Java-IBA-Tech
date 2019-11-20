@@ -8,6 +8,13 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 public class HelloServlet extends HttpServlet {
+
+  private final int magic;
+
+  public HelloServlet(int magic) {
+    this.magic = magic;
+  }
+
   @Override
   protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
     PrintWriter writer = resp.getWriter();
