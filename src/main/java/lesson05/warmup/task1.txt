@@ -1,0 +1,13 @@
+The task is:
+
+1. to generate a random string from characters [A-Z,a-z]
+   with the length = 30;
+
+2. extract all the vowels, consonants, upper and lowercase
+   into different strings
+
+3. print out all 5 strings
+
+4. it is forbidden to use print inside any loops
+   usage print method is allowed only
+   as a very last statements of your code.

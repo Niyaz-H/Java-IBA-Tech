@@ -10,14 +10,20 @@ public class XLinkedListApp {
     boolean found11 = xl.contains(11);
     boolean found33 = xl.contains(33);
     boolean found44 = xl.contains(44);
+
     System.out.println(found11); // true
     System.out.println(found33); // true
     System.out.println(found44); // false
 
     System.out.println(xl.toString()); // 11,22,33,44
+//    System.out.println(xl.toStringRec()); // 11,22,33,44
     xl.revert();
     System.out.println(xl.toString());
-    System.out.println(xl.length());
+    xl.revert_r();
+    System.out.println(xl.toString());
+    xl.revert_r2();
+    System.out.println(xl.toString());
+//    System.out.println(xl.length());
 //    xl.remove(22);
 //    System.out.println(xl.toString()); // 11,33,44
 //    System.out.println(xl.length());

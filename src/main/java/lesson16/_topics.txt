@@ -1,0 +1,12 @@
+- warm up
+
+
+- maven
+- installation
+- web architecture
+- http basics
+- html
+- css
+- requests GET/POST
+
+- minimal web application

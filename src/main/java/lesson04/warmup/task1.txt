@@ -1,0 +1,12 @@
+WarmUp:
+-------
+The task is:
+
+1. to write a function (method in class) which will generate
+   a random string from letters in the range ['A'..'Z', 'a'..'z']
+   by specifying the desired length
+
+2. to write a test for that class
+     - to verify whether all the letters belong to the required range
+     - to verify that the resulted string is not null
+     - to verify that the resulted string has a valid length

@@ -1,6 +1,6 @@
 package lesson14.warmup;
 
-import lesson13.warmuo.IsPalindrome;
+import lesson13.warmup.IsPalindrome;
 import lesson14.warmup.prime.versions.PrimesDynamic;
 
 public class MaxPal {
