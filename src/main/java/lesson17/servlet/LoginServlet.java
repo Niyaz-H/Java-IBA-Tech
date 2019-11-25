@@ -1,4 +1,6 @@
-package lesson17;
+package lesson17.servlet;
+
+import lesson17.service.Auth;
 
 import javax.servlet.ServletException;
 import javax.servlet.ServletOutputStream;
@@ -12,6 +14,12 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class LoginServlet extends HttpServlet {
+  private final Auth auth;
+
+  public LoginServlet(Auth auth) {
+    this.auth = auth;
+  }
+
   @Override
   protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
     // folder/file
@@ -24,12 +32,13 @@ public class LoginServlet extends HttpServlet {
   protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
     String user_name = req.getParameter("user_name");
     String user_paswd = req.getParameter("user_paswd");
+    boolean checked = auth.check(user_name, user_paswd);
+
     System.out.println(user_name);
     System.out.println(user_paswd);
     try (PrintWriter w = resp.getWriter()) {
       w.println("LoginServlet.POST");
-      w.printf("login:%s\n",user_name);
-      w.printf("paswd:%s\n",user_paswd);
+      w.printf("user:%s %s\n",user_name, checked ? "logged in successfully" : "login failed");
     };
   }
 }

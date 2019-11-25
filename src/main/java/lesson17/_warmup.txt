@@ -1,0 +1,6 @@
+http://localhost/hello/Alex
+http://localhost/bye/Dima
+
+write servlet,
+parse the address
+write in the browser "Hello, Alex!" or "Bye, Dima!"

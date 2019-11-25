@@ -1,4 +1,4 @@
-package lesson17;
+package lesson17.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

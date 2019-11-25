@@ -1,12 +1,8 @@
 - warm up
 
-
-- maven
-- installation
+- http request flow
 - web architecture
-- http basics
-- html
-- css
-- requests GET/POST
-
+- requests GET/POST/...
 - minimal web application
+- parameters parsing
+- response generating

@@ -1,5 +1,11 @@
 package lesson17;
 
+import lesson17.service.Auth;
+import lesson17.service.AuthService;
+import lesson17.servlet.LoginServlet;
+import lesson17.servlet.ServletFile;
+import lesson17.servlet.ServletRedirect;
+import lesson17.servlet.TemplateServlet;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
@@ -14,7 +20,11 @@ public class WebApp17 {
  * /static/img/total.png
  */
     handler.addServlet(ServletFile.class, "/static/*");
-    handler.addServlet(LoginServlet.class, "/login/*");
+    Auth authService = new AuthService();
+    handler.addServlet(new ServletHolder(new LoginServlet(authService)), "/login/*");
+
+    TemplateEngine te = new TemplateEngine("./content/templates");
+    handler.addServlet(new ServletHolder(new TemplateServlet(te)), "/te/*");
 
     handler.addServlet(new ServletHolder(new ServletRedirect("/extra2/*")), "/extra/*");
     handler.addServlet(new ServletHolder(new ServletRedirect("/login")), "/*");
